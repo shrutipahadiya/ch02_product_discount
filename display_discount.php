@@ -37,7 +37,7 @@
  <label>Discount Amount:</label>
  <span><?php echo $discount_amount; ?></span><br>
  <label>Discount Price:</label>
- <span><?php echo discount_price; ?></span><br>
+ <span><?php echo $discount_price; ?></span><br>
  </main>
 </body>
 </html>
