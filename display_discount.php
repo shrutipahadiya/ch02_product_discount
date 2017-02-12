@@ -41,7 +41,7 @@
 </head>
 <body>
  <main>
- <h1>This page is under construction</h1>
+  <h1>Product Discount Calculator</h1>
  <label>Product Description:</label>
  <span><?php echo htmlspecialchars($product_desc);?></span><br>
  <label>List Price:</label> 
