@@ -1,28 +1,33 @@
+
+<?php
+
+
+  // Code to get request data from html form
+  $product_desc = $_POST['product_description'];
+  $list_price = $_POST['list_price'];
+  $discount_percent = $_POST['discount_percent'];
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product Discount Calculator</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-	    <main>
-	            <h1>This page is under construction</h1>
-
-		            <label>Product Description:</label>
-			            <span><?php echo ''; ?></span><br>
-
-				            <label>List Price:</label>
-					            <span><?php echo ''; ?></span><br>
-
-						            <label>Standard Discount:</label>
-							            <span><?php echo ''; ?></span><br>
-
-								            <label>Discount Amount:</label>
-									            <span><?php echo ''; ?></span><br>
-
-										            <label>Discount Price:</label>
-											            <span><?php echo '';
-												    ?></span><br>
-												        </main>
-													</body>
-													</html>
+<title>Product Discount Calculator</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+ <main>
+ <h1>This page is under construction</h1>
+ <label>Product Description:</label>
+ <span><?php echo ''; ?></span><br>
+ <label>List Price:</label>
+ <span><?php echo ''; ?></span><br>
+ <label>Standard Discount:</label>
+ <span><?php echo ''; ?></span><br>
+ <label>Discount Amount:</label>
+ <span><?php echo ''; ?></span><br>
+ <label>Discount Price:</label>
+ <span><?php echo '';
+ ?></span><br>
+ </main>
+</body>
+</html>
