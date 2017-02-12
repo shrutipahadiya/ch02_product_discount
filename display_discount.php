@@ -1,5 +1,5 @@
 <?php
-    // get the data from the form
+  /*  // get the data from the form
     $product_description = filter_input(INPUT_POST, 'product_description');
     $list_price = filter_input(INPUT_POST, 'list_price');
     $discount_percent = filter_input(INPUT_POST, 'discount_percent');
@@ -12,7 +12,7 @@
     $list_price_f = "$".number_format($list_price, 2);
     $discount_percent_f = $discount_percent."%";
     $discount_f = "$".number_format($discount, 2);
-    $discount_price_f = "$".number_format($discount_price, 2);
+    $discount_price_f = "$".number_format($discount_price, 2);*/
 ?>
 <!DOCTYPE html>
 <html>
