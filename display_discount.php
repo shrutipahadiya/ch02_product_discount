@@ -5,22 +5,14 @@
   $product_description = $_POST['product_description'];
   $list_price = $_POST['list_price'];
   $discount_percent = $_POST['discount_percent'];
- 
- 
- /*  // get the data from the form
-    $product_description = filter_input(INPUT_POST, 'product_description');
-    $list_price = filter_input(INPUT_POST, 'list_price');
-    $discount_percent = filter_input(INPUT_POST, 'discount_percent');
-    
-    // calculate the discount and discounted price
-    $discount = $list_price * $discount_percent * .01;
-    $discount_price = $list_price - $discount;
 
-    // apply currency formatting to the dollar and percent amounts
-    $list_price_f = "$".number_format($list_price, 2);
-    $discount_percent_f = $discount_percent."%";
-    $discount_f = "$".number_format($discount, 2);
-    $discount_price_f = "$".number_format($discount_price, 2);*/
+ $product_description = filter_input(INPUT_POST, 'product_description');
+ $list_price = filter_input(INPUT_POST, 'list_price');
+ $discount_percent = filter_input(INPUT_POST, 'discount_percent');
+ 
+ // calculate the discount and discounted price
+  $discount = $list_price * $discount_percent * .01;
+  $discount_price = $list_price - $discount;
 ?>
 <!DOCTYPE html>
 <html>
