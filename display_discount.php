@@ -1,5 +1,13 @@
 <?php
-  /*  // get the data from the form
+ 
+ 
+  // Code to get request data from html form
+  $product_description = $_POST['product_description'];
+  $list_price = $_POST['list_price'];
+  $discount_percent = $_POST['discount_percent'];
+ 
+ 
+ /*  // get the data from the form
     $product_description = filter_input(INPUT_POST, 'product_description');
     $list_price = filter_input(INPUT_POST, 'list_price');
     $discount_percent = filter_input(INPUT_POST, 'discount_percent');
@@ -27,23 +35,23 @@
         <h1>Product Discount Calculator</h1>
 
         <label>Product Description:</label>
-        <span><?php echo htmlspecialchars($product_description); ?></span>
+        <span><?php echo $product_description; ?></span>
         <br>
 
         <label>List Price:</label>
-        <span><?php echo htmlspecialchars($list_price_f); ?></span>
+        <span><?php echo $list_price; ?></span>
         <br>
 
         <label>Standard Discount:</label>
-        <span><?php echo htmlspecialchars($discount_percent_f); ?></span>
+        <span><?php echo $discount_percent; ?></span>
         <br>
 
         <label>Discount Amount:</label>
-        <span><?php echo $discount_f; ?></span>
+        <span><?php echo $discount; ?></span>
         <br>
 
         <label>Discount Price:</label>
-        <span><?php echo $discount_price_f; ?></span>
+        <span><?php echo $discount_price; ?></span>
         <br>
     </main>
 </body>
