@@ -18,6 +18,16 @@
    $discount_price = $list_price - $discount;
 
 
+
+ // Code for currency format
+    $list_price = "$".number_format($list_price, 2);
+    $discount_percent = $discount_percent."%";
+    $discount_amount = "$".number_format($discount_amount, 2);
+    $discount_price = "$".number_format($discount_price, 2);
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,6 +47,7 @@
  <label>Discount Amount:</label>
  <span><?php echo $discount_amount; ?></span><br>
  <label>Discount Price:</label>
+ 
  <span><?php echo $discount_price; ?></span><br>
  </main>
 </body>
