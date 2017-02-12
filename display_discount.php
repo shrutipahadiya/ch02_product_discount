@@ -31,18 +31,18 @@
 
 <body>
     <main>
-        <h1>Product Discount Calculator</h1>
+        <h1></h1>
 
         <label>Product Description:</label>
-        <span><?php echo $product_description; ?></span>
+        <span><?php echo htmlspecialchars($product_description); ?></span>
         <br>
 
         <label>List Price:</label>
-        <span><?php echo $list_price_f; ?></span>
+        <span><?php echo htmlspecialchars($list_price_f); ?></span>
         <br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount_percent_f; ?></span>
+        <span><?php echo htmlspecialchars($discount_percent_f); ?></span>
         <br>
 
         <label>Discount Amount:</label>
